@@ -4,7 +4,7 @@ namespace ReqPlus\v1\Pattern;
 
 abstract class Singleton
 {
-	private static $instance;
+	protected static $instance;
 
 	static public function getInstance()
 	{
